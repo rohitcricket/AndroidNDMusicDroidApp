@@ -19,21 +19,19 @@ public class ClassicalActivity extends AppCompatActivity {
 
         ArrayList<String> classical = new ArrayList<String>();
 
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
-        classical.add("classical");
+        classical.add("rachmaninoff concerto 2, pt1");
+        classical.add("rachmaninoff concerto 2, pt2");
+        classical.add("rachmaninoff concerto 2, pt3");
+        classical.add("mozart eine kleine nachtmusik, pt1");
+        classical.add("mozart eine kleine nachtmusik, pt2");
+        classical.add("mozart eine kleine nachtmusik, pt3");
+        classical.add("rachmaninoff concerto 3, pt1");
+        classical.add("rachmaninoff concerto 3, pt2");
+        classical.add("rachmaninoff concerto 3, pt3");
+        classical.add("beethoven symphony 5, pt1");
+        classical.add("beethoven symphony 5, pt2");
+        classical.add("beethoven symphony 5, pt3");
+
 
 
 

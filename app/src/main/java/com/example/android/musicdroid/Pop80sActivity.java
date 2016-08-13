@@ -17,9 +17,9 @@ public class Pop80sActivity extends AppCompatActivity {
 
         ArrayList<String> pop80s = new ArrayList<String>();
 
-        pop80s.add("The 80s");
-        pop80s.add("The 80s");
-        pop80s.add("The 80s");
+        pop80s.add("Madonna: Like A Virgin");
+        pop80s.add("Michael Jackson: Beat It");
+        pop80s.add("aha Take On Me");
         pop80s.add("The 80s");
         pop80s.add("The 80s");
         pop80s.add("The 80s");

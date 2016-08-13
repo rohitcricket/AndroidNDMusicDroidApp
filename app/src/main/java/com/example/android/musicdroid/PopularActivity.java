@@ -18,10 +18,10 @@ public class PopularActivity extends AppCompatActivity {
 
         ArrayList<String> popular = new ArrayList<String>();
 
-        popular.add("popular");
-        popular.add("popular");
-        popular.add("popular");
-        popular.add("popular");
+        popular.add("Taylor Swift 1989");
+        popular.add("Taylor Swift Blank Spacc");
+        popular.add("Taylor Swift You Belong With Me");
+        popular.add("Taylor Swift Shake it Off");
         popular.add("popular");
         popular.add("popular");
         popular.add("popular");

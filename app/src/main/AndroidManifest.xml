@@ -15,13 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ClassicalActivity" />
-        <activity android:name=".PopularActivity" />
-        <activity android:name=".Pop90sActivity" />
-        <activity android:name=".Pop80sActivity" />
-        <activity android:name=".RockActivity" />
-        <activity android:name=".JazzActivity" />
-        <activity android:name=".FavoritesActivity" />
+        <activity android:name=".ClassicalActivity" android:label="@string/classical"/>
+        <activity android:name=".PopularActivity" android:label="@string/popular"/>
+        <activity android:name=".Pop90sActivity" android:label="@string/pop90s"/>
+        <activity android:name=".Pop80sActivity" android:label="@string/pop80s"/>
+        <activity android:name=".RockActivity" android:label="@string/rock"/>
+        <activity android:name=".JazzActivity" android:label="@string/jazz"/>
+        <activity android:name=".FavoritesActivity" android:label="@string/favorites"/>
     </application>
 
 </manifest>
