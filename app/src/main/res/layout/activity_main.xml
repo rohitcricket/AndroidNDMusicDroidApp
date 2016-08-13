@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.musicdroid.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll"
+        android:background="@color/category_scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:textColor="#455A64"
+            android:text="@string/title"/>
+
+
+
+            <ImageView
+                android:id="@+id/favorites"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/fav"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginBottom="32dp"
+                android:layout_below="@id/favorites"
+                android:text="My Favorites"/>
+
+
+            <ImageView
+                android:id="@+id/classical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/piano"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginBottom="32dp"
+                android:layout_below="@id/classical"
+                android:text="Classical Music"/>
+
+            <ImageView
+                android:id="@+id/popular"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/ipod"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginBottom="32dp"
+                android:layout_below="@id/popular"
+                android:text="Currently Popular"/>
+
+            <ImageView
+                android:id="@+id/pop90s"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:src="@drawable/yahoo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginBottom="32dp"
+                android:layout_below="@id/pop90s"
+                android:text="The 90s"/>
+
+            <ImageView
+                android:id="@+id/pop80s"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:src="@drawable/sony"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginBottom="32dp"
+                android:layout_below="@id/pop80s"
+                android:text="The 80s"/>
+
+
+            <ImageView
+                android:id="@+id/rock"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/rock"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginBottom="32dp"
+                android:layout_below="@id/rock"
+                android:text="Rock"/>
+
+            <ImageView
+                android:id="@+id/jazz"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/jazz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginBottom="32dp"
+                android:layout_below="@id/jazz"
+                android:text="Jazz"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

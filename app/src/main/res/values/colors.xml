@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the sroll category -->
+    <color name="category_scroll">#81D4FA</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_favorites">#FF9800</color>
+    <!-- Background color for the numbers category -->
+    <color name="category_classical">#3498db</color>
+    <!-- Background color for the family members category -->
+    <color name="category_popular">#8e44ad</color>
+    <!-- Background color for the family members category -->
+    <color name="category_pop90s">#e74c3c</color>
+    <!-- Background color for the family members category -->
+    <color name="category_pop80s">#16a085</color>
+    <!-- Background color for the family members category -->
+    <color name="category_rock">#2c3e50</color>
+    <!-- Background color for the family members category -->
+    <color name="category_jazz">#bdc3c7</color>
+</resources>

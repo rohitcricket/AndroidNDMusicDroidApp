@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MusicDroid</string>
+    <string name="title">World of Music</string>
+    <string name="favorites">My Favorites</string>
+    <string name="classical">Classical</string>
+    <string name="popular">Popular</string>
+    <string name="pop90s">The 90s</string>
+    <string name="pop80s">The 80s</string>
+    <string name="rock">Rock</string>
+    <string name="jazz">Jazz</string>
+    <string name="music">Spotify</string>
+    <string name="search">Search</string>
+
+</resources>
