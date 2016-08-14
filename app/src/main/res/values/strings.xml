@@ -10,5 +10,12 @@
     <string name="jazz">Jazz</string>
     <string name="music">Spotify</string>
     <string name="search">Search</string>
+    <string name="descFav">Save your favorites song, buy from Spotify, search and play them</string>
+    <string name="descCl">Buy classical music from Spotify, search and play them</string>
+    <string name="desc90s">Buy 90s music from Spotify, search and play them</string>
+    <string name="desc80s">Buy 80s music from Spotify, search and play them</string>
+    <string name="descR">Buy Rock music from Spotify, search and play them</string>
+    <string name="descJ">Buy Jazz music from Spotify, search and play them</string>
+    <string name="start">This app helps you find, buy and play songs. Tap an image!</string>
 
 </resources>

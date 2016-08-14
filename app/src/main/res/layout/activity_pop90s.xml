@@ -16,9 +16,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Playlist: The 90s"
+        android:text="@string/desc90s"
         android:textStyle="bold"
-        android:textSize="24sp" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/download"
