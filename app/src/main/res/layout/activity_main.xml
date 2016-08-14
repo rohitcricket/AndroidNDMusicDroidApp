@@ -40,7 +40,7 @@
                 android:gravity="center"
                 android:textStyle="bold"
                 android:text="@string/start"
-                android:textSize="10sp"
+                android:textSize="14sp"
                 android:textColor="#0050ef" />
 
 

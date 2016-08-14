@@ -18,7 +18,7 @@
         android:layout_centerHorizontal="true"
         android:text="@string/desc90s"
         android:textStyle="bold"
-        android:textSize="12sp" />
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/download"
